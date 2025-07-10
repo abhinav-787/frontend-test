@@ -1,0 +1,117 @@
+.App {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #f4f6fb;
+  min-height: 100vh;
+}
+
+.App-header {
+  background: #2d3a4b;
+  color: #fff;
+  padding: 2rem 0 1rem 0;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+}
+
+.App-main {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 2rem;
+  padding: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.product-upload {
+  background: #fff;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 2px 12px rgba(44,62,80,0.08);
+  min-width: 320px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.product-upload h2 {
+  margin-bottom: 1rem;
+  color: #2d3a4b;
+}
+
+.product-upload input[type="text"],
+.product-upload input[type="number"],
+.product-upload textarea {
+  padding: 0.5rem;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+.product-upload input[type="file"] {
+  margin-top: 0.5rem;
+}
+
+.product-upload button {
+  background: #2d3a4b;
+  color: #fff;
+  border: none;
+  padding: 0.75rem;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.product-upload button:hover {
+  background: #1a2230;
+}
+
+.product-list {
+  background: #fff;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 2px 12px rgba(44,62,80,0.08);
+  min-width: 400px;
+  flex: 1;
+}
+
+.product-list h2 {
+  color: #2d3a4b;
+  margin-bottom: 1rem;
+}
+
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+
+.product-card {
+  background: #f9fafb;
+  border-radius: 10px;
+  box-shadow: 0 1px 4px rgba(44,62,80,0.06);
+  padding: 1rem;
+  min-width: 180px;
+  max-width: 220px;
+  flex: 1 1 180px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.product-image {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 0.5rem;
+  background: #e5e7eb;
+}
+
+.product-price {
+  color: #1a7f37;
+  font-weight: bold;
+  margin-top: 0.5rem;
+}
